@@ -1,0 +1,5 @@
+1- criar o projeto;
+2- adicioná-lo ao docker hub;
+3- rode o comando "kubectl create deployment <nome> --image=<suaImagem>" para criar o deployment e o pod do seu projeto;
+4- rode o comando "kubectl expose deployment <nome> --type=<tipo> --port=<port>" (há vários tipos de serviços, o LoadBalancer é o mais comum);
+rode o comando minikube service <nome>
